@@ -1,0 +1,300 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
+
+header {
+    font-size: 2rem;
+
+    background-color: black;
+
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    z-index: 2;
+
+}
+
+.navbar a {
+    margin: 0 1rem;
+
+}
+
+.navbar-toggler-icon {
+    margin-right: 2rem;
+
+}
+
+.container-fluid i {
+    color: white;
+    box-shadow: 0 0 15px rgb(255, 255, 255, 0.1);
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.navbar-toggler .navbar-toggler-icon i {
+    color: white;
+    font-size: 3rem;
+}
+
+.nav-link {
+    border-radius: 1rem;
+}
+
+.nav-link:hover {
+    background-color: #202020;
+    transition: 0.3s;
+}
+
+main {
+
+    font-size: 2rem;
+    /* background-color: rgb(48, 48, 48); */
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9)), url(../imagenes/background2.jpg);
+    background-size:cover;
+   
+    color: white;
+    min-height: calc(100vh - 100px - 100px);
+
+}
+
+#index-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+
+
+}
+
+#index-principal h1 {
+    font-size: 4rem;
+}
+
+#lista-criptos {
+    padding: 1rem;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0 0 15px rgb(0, 255, 217, 0.4);
+}
+
+#lista-criptos li {
+    display: flex;
+
+
+}
+
+#lista-criptos li {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-around;
+    margin: 1rem;
+
+}
+
+.cripto-list {
+
+    height: 5rem;
+
+}
+
+#convertir {
+    display: flex;
+    justify-content: center;
+
+}
+
+#convertir #cuerpo_conversor {
+    border-radius: 1rem;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0 0 15px rgb(0, 255, 217, 0.4);
+    padding: 4rem;
+    align-self: center;
+    /* flex-direction: column; */
+    justify-self: center;
+    width: 50%;
+
+
+}
+
+#convertir #cuerpo_conversor button{
+    margin: 1rem 0rem;
+}
+
+#convertir #cuerpo_conversor h2 {
+    font-size: 4rem;
+
+    margin: 2rem;
+
+
+}
+
+#prestamo {
+    display: flex;
+
+
+    justify-content: center;
+}
+#prestamo #cuerpo_prestamo select{
+    margin: 1rem 0rem;
+}
+
+#prestamo #cuerpo_prestamo button{
+    margin-bottom: 1rem;
+    
+}
+#prestamo #cuerpo_prestamo {
+    border-radius: 1rem;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0 0 15px rgb(0, 255, 217, 0.4);
+    padding: 4rem;
+    align-self: center;
+
+    justify-self: center;
+    width: 50%;
+}
+
+#prestamo #cuerpo_prestamo h2 {
+    font-size: 4rem;
+
+    margin: 2rem;
+
+}
+
+#favoritos {
+    display: flex;
+
+
+    justify-content: center;
+}
+
+#favoritos #favoritos_cuerpo {
+    border-radius: 1rem;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0 0 15px rgb(0, 255, 217, 0.4);
+    padding: 4rem;
+    align-self: center;
+
+    justify-self: center;
+    width: 50%;
+}
+
+#favoritos #favoritos_cuerpo h2 {
+    font-size: 4rem;
+}
+
+#eliminar {
+    font-size: 2rem;
+}
+
+#calcular {
+    font-size: 2rem;
+}
+
+#calcular-conversor {
+    font-size: 2rem;
+}
+
+#input-monto {
+    font-size: 2rem;
+}
+
+#select1 {
+    font-size: 2rem;
+}
+
+#select2 {
+    font-size: 2rem;
+}
+
+div .total {
+    font-size: 2rem;
+}
+
+div #mostrar-conversion {
+    font-size: 2rem;
+}
+
+#select {
+    font-size: 2rem;
+}
+
+#select-cuotas {
+    font-size: 2rem;
+}
+
+div #inputGroup-sizing-lg {
+    font-size: 2rem;
+}
+
+div #input-monto {
+    font-size: 2rem;
+}
+
+footer {
+    font-size: 1.5rem;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    padding: 4rem;
+    display: flex;
+
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+}
+
+footer div {
+    order: 1;
+}
+
+footer a:hover {
+    color: #00ffd9;
+    transition: 0.3s;
+}
+
+#calcular:hover{
+    background: rgb(0, 255, 217,0.8);
+    transition: 0.3s;
+}
+#eliminar:hover{
+    background: rgb(0, 255, 217,0.8);
+    transition: 0.3s;
+}
+#calcular-conversor:hover{
+    background: rgb(0, 255, 217,0.8);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 480px) {
+
+    #index-principal h1 {
+        font-size: 2rem;
+    }
+
+    #lista-criptos {
+
+        font-size: 1.2rem;
+
+    }
+}
+

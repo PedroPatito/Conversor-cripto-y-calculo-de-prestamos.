@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>conversor</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand link-light" href="#"><i class="fa-solid fa-coins"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active link-light" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-light" href="./conversor.html">Conversor de divisas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-light" href="./prestamo.html">Calculadora de prestamos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-light" href="./favoritos.html">Favoritos</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main id="convertir">
+  
+      
+        <section id="cuerpo_conversor">
+          <h2>Conversor</h2>
+            <div class="input-group mb-3">
+              <select class="form-select"  aria-label="Default select example" id="select1">
+                <option value="default" selected>Seleccione una criptomoneda</option>
+
+              </select>
+                <input type="text" id="input-monto" class="form-control" aria-label="Text input with dropdown button" placeholder="Ingrese un monto">
+              </div>
+              
+              <select class="form-select" aria-label="Default select example" id="select2">
+                <option value="default" selected>Seleccione una criptomoneda</option>
+ 
+              </select> 
+              <button type="button" id="calcular-conversor" class="btn btn-primary">Calcular</button>
+              <div class="input-group mb-3 salida">
+                <span class="input-group-text total" id="inputGroup-sizing-lg total">Total</span>
+                <output id="mostrar-conversion"  type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"></output>
+              </div>
+        </section>
+
+    </main>
+    <footer id="footer">
+        <p class="fecha">2022</p>
+        <div>
+            <p>Mis redes</p>
+            <a href="https://github.com/PedroPatito"><i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/pedro-patito-59ab7214b/"><i
+                    class="fa-brands fa-linkedin fa-2x"></i></a>
+        </div>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/b77d3e18e8.js" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../scripts/conversor.js"></script>
+</body>
+</html>
